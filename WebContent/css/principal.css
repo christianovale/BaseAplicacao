@@ -1,0 +1,322 @@
+/* Arquivo CSS */
+
+a,a:visited,a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+/* Propriedades do cabecalho superior */
+#cabecalhoSuperior {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: #CCE0BE;
+	height: 60px;
+	width:101.8%;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color: #C4D1A7;
+}
+
+#sair {
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+/* Propriedades do cabecalho inferior */
+#cabecalhoInferior {
+	position:absolute;
+	top:64px;
+	left:0;
+	background-color:#EEF2E6;
+	height:40px;
+	width:101.8%;
+	border-top: 2px;
+	border-color:#FFFFFF;
+	text-align:center;
+}
+
+/* Propriedades do conteudo */
+#principal {
+	position: absolute;
+	top:3px;
+	left:1px;
+	width: 102.2%;
+	height: 565px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	padding: 0px 0px 5px 0px;
+	background-color:#EAEAEA;	
+}
+
+/* Propriedades do menu lateral */
+#lateral {
+	position:absolute;
+	left:0;
+	top:3px;
+	background-color: #CCE0BE;
+	width: 180px;
+	text-align: justify;
+	border-color: #C4D1A7;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	height: 566px;
+}
+
+/* Propriedades gerais das divs dos cones do menu superior*/
+div.icones {
+	position: absolute;
+	width: 100px;
+	height: 36px;
+	vertical-align: middle;
+	top: 2px;
+}
+
+/* Propriedades do botao Contato */
+#botaoContato {
+	left:194px;	
+}
+
+/* Propriedades do botao Amostra */
+#botaoAmostra {
+	left:294px;	
+}
+
+/* Propriedades do botao Contrato */
+#botaoTarefa {
+	left:394px;	
+}
+
+/* Propriedades do botao Tarefa */
+#botaoContrato {
+	left:494px;	
+}
+
+/* Propriedades do botao Comisso */
+#botaoComissao {
+	left:594px;	
+}
+
+/* Propriedades do botao Anlise */
+#botaoAnalise {
+	left:694px;	
+}
+
+/* Propriedades do botao Configuraoes */
+#botaoConfiguracoes {
+	left:794px;	
+}
+
+/* Propriedades do botao usuario */
+#botaoUsuario {
+	left:894px;
+}
+
+/* Propriedades da div do logotipo do BID Caf */
+#logo {
+	position:relative;
+	width: 170px;
+	vertical-align: middle;
+	margin-left: 40px;
+	top:2px;
+}
+
+/*---------------------- Fim do cabealho ----------------------*/
+#abas {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+}
+
+/* Formatacao de qualquer campo dentro do conteudo */
+input, select, textarea, table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	vertical-align:middle;	
+}
+
+/*Formatacao das abas*/
+.abas {
+	color: #000033;
+	background-color: #EAEAEA;
+	border-right: 1px solid #336633;
+	border-top: 1px solid #336633;
+	border-bottom: 1px solid #336633;
+	padding: 2px 5px 1px 5px;
+	cursor: hand;
+	height: 16px;
+	vertical-align: middle;
+	width: 110px;
+	position:absolute; 
+}
+
+/* Formatao de uma aba que est selecionada, ativa. */
+.abaSelecionada {
+	font-weight: bold;
+	color: #000033;
+	background-color: #B3D095;
+	border-right: 1px solid #336633;
+	border-top: 1px solid #336633;
+	border-bottom: 1px solid #B3D095;
+	padding: 2px 5px 1px 5px;
+	cursor: hand;
+	height: 16px;
+	vertical-align:middle;
+	width:110px;
+	position:absolute;
+}
+
+/* Linha de separao dentro de uma pgina para separar pequenas reas */
+div.separacao {
+	width: 90%;
+	border-top: 1px solid #B9B9B9;
+	position: absolute;
+	left: 5%;
+}
+
+/* Sinaliza um campo invlido com as bordas vermelhas */
+.campoInvalido {
+	FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	border: 1px solid #FF0000;
+}
+
+/*Linhas das tabelas*/
+/*Linha mais clara*/
+tr.linhaTabelaImpar {
+	padding: 1px 2px 1px 2px;
+	background-color: #DBDBDB;
+}
+/*Linha mais escura*/
+tr.linhaTabelaPar {
+	padding: 1px 2px 1px 2px;
+	background-color: #CFCFCF;
+}
+
+.listaDados {
+	FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	vertical-align:middle;
+	cursor:hand;
+	border: 1px inset #CCCCCC;
+	background-color:#FFFFFF;
+}
+
+.itemSelecionado {
+	background-color:#76B76A;
+}
+
+.itemNaoSelecionado {
+	background-color:#FFFFFF;
+}
+
+/* Atributos da tela lateral ---------------------------------------------*/
+#container{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:566px;
+}
+
+.botaoBarra, .botaoBarraAtiva{
+	display:block;
+	margin:0;
+	padding:5px 5px 5px 5px;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:10px;
+	color:#000000;
+	text-decoration:none;
+	background-repeat:repeat-x;
+}
+
+.botaoBarra{
+	background-image:url(../imagem/lateral/botao.jpg);
+}
+.botaoBarra:hover{
+	background-image:url(../imagem/lateral/botao_hover.jpg);
+}
+
+.botaoBarraAtiva{
+	background-image:url(../imagem/lateral/botaoAtivo.jpg);
+}
+.botaoBarraAtiva:hover{
+	background-image:url(../imagem/lateral/botaoAtivo_hover.jpg);
+}
+.conteudoBarra{
+	display:none;
+	height:0px;
+	overflow:hidden;
+	background-image:url(fundo.jpg);
+	background-repeat:repeat;
+	font-family:Arial;
+	font-size:10px;
+}
+
+.conteudoBarra p{
+	margin:0px;
+}
+
+table.tabelaLateral {
+	text-align: justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+
+tr.linhaTabelaLateral {
+	padding: 1px 2px 1px 2px;
+	background-color: #A5CC92;
+}
+
+/*Caixa de informações adicionais (Tooltip, Hint)*/
+.transparent {
+    background-color:#CCCCCC;
+    display:none;
+    position:absolute;
+    color: white;
+    border: 1px #336633 solid;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+/*---------------------Mensagem da entrada--------------------------*/
+
+#principal_peq {
+	position: absolute;
+	top:5px;
+	left:10px;
+	width: 300px;
+	height: 153px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	padding: 0px 0px 5px 0px;
+	background-color:#EAEAEA;
+}
+
+/* Configuração básica de divs de grupos */
+div.grupos {
+	position:absolute;
+	left:13px; 
+	border:1px solid #B9B9B9;
+	width:96.5%;
+}
+
+/* Div que tem scrolbar utilizada em vias, contatos internos, bancos, tarefas, etc */
+div.especial {
+	overflow: auto;
+	position:absolute;
+}

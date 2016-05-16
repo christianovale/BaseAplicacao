@@ -1,0 +1,89 @@
+package br.com.christianovale.base.aplicacao.web.mensagem;
+
+import javax.servlet.http.HttpServletRequest;
+
+/**
+ * @author christiano vale
+ * @version 1.0
+ * 
+ * <p>Description: Christiano Vale - Base Aplicação</p>
+ *
+ * <p>Copyright: Copyright (c) 2008</p>
+ *
+ * <p>Company: Christiano Vale Sistemas</p>
+ * 
+ * Mensagem para o usuário com 2 Botões de Ação.
+ */
+public class Mensagem2Botoes extends Mensagem {
+
+    private String servlet1;
+    private String servlet2;
+    private String acao1;
+    private String acao2;
+    private String botao1;
+    private String botao2;
+
+    public Mensagem2Botoes() {
+    }
+
+    public void formatarMensagem(HttpServletRequest request) {
+        request.setAttribute("tipo", this.getTipo());
+        request.setAttribute("texto", this.getTexto());
+        request.setAttribute("servlet1", this.getServlet1());
+        request.setAttribute("acao1", this.getAcao1());
+        request.setAttribute("botao1", this.getBotao1());
+        request.setAttribute("servlet2", this.getServlet2());
+        request.setAttribute("acao2", this.getAcao2());
+        request.setAttribute("botao2", this.getBotao2());
+    }
+
+    public String getAcao1() {
+        return acao1;
+    }
+
+    public String getAcao2() {
+        return acao2;
+    }
+
+    public String getBotao1() {
+        return botao1;
+    }
+
+    public String getBotao2() {
+        return botao2;
+    }
+
+    public String getServlet1() {
+        return servlet1;
+    }
+
+    public String getServlet2() {
+        return servlet2;
+    }
+
+    public void setServlet2(String servlet2) {
+        this.servlet2 = servlet2;
+    }
+
+    public void setServlet1(String servlet1) {
+        this.servlet1 = servlet1;
+    }
+
+    public void setBotao2(String botao2) {
+        this.botao2 = botao2;
+    }
+
+    public void setBotao1(String botao1) {
+        this.botao1 = botao1;
+    }
+
+    public void setAcao2(String acao2) {
+        this.acao2 = acao2;
+    }
+
+    public void setAcao1(String acao1) {
+        this.acao1 = acao1;
+    }
+
+}
+

@@ -1,0 +1,36 @@
+/* some CSS definitions for the "mgBox" autocomplete box */
+div.mgBox {
+	background-color:#eeeeee;
+	border: 1px solid #B8B8B8;
+	padding:0;
+	z-index:1000; 
+	position: absolute; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	height:150px;
+	overflow:auto;
+}
+
+div.mgBox ul {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+div.mgBox ul li {
+  padding:0;
+  margin:0;
+}
+
+li.mgHighlighted {
+	color:white;
+	background-color:#76B76A;
+}
+
+li span.mgSearchterm {
+  font-weight:bold;
+}
+
+li.mgHighlighted span.mgSearchterm {
+
+}

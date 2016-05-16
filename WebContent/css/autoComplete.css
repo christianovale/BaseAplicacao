@@ -1,0 +1,42 @@
+/* 
+
+Arquivo CSS do Recurso Auto-Competar 
+
+autoComplete.js
+
+*/
+
+.sugestoes{
+	background-color:#eeeeee;
+	border: 1px solid #B8B8B8;
+	padding:0;
+	z-index:1000; 
+	position: absolute; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	height:150px;
+	overflow:auto;
+	visibility:hidden;
+}
+
+.corSobre{
+	background: #76B76A;
+	cursor:pointer;
+	color:white;
+}
+
+.corFora{
+	background: #eeeeee;
+}
+
+.autoComplete{
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;
+	padding:5px;
+	border:1px solid;
+	width:30%;
+	font-weight:bold;
+	padding:5px;
+	left:60%;
+	position:relative;
+	visibility:hidden;
+}
